@@ -1,0 +1,383 @@
+/* My Own CSS Classes */
+
+.font-Hind {
+    font-family: 'Hind', sans-serif !important;
+}
+
+.font-Monterrat {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.font-sans {
+    font-family: sans-serif !important;
+}
+
+.navbar-nav .active-class {
+    color: #009933 !important;
+}
+
+/* Header */
+
+.header {
+    background: linear-gradient(to right, #00cc99 0%, #990099 100%);
+    height: 40px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.header a:hover {
+    color: white;
+}
+
+.header .contact {
+    height: 40px;
+    width: 300px;
+}
+
+.header .social-icons {
+    height: 40px;
+    width: 300px;
+}
+
+/* Hi Section */
+
+.hello-section {
+    position: relative;
+    color: white;
+
+}
+
+.hello-section h1{
+    font-family: sans-serif;
+    font-weight: 800;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* Nav-bar */
+
+
+.navbar-nav a{
+    color: black !important;
+    font-weight: 600;
+}
+
+.navbar-nav a:hover {
+    color: #009933 !important;
+}
+
+
+
+
+/* My Profile */
+
+.image-alteration {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100% ;
+}
+
+.profile-h1 {
+    font-weight: 800;
+    animation: slidein-left;
+    animation-duration: 4s;
+}
+
+/* My Information */
+
+.name-box {
+    height: 70px;
+    width: 100%;
+    animation: slidein-right;
+    animation-duration: 4s;
+}
+
+
+.about-me {
+    height: 500px;
+}
+
+.about-me h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+}
+
+.about-me h2 span {
+    background-color: white;
+    color: black;
+}
+
+.about-me h3 {
+    font-weight: 700;
+    color: black;
+    animation: slidein-right;
+    animation-duration: 4s;
+}
+
+.about-me-text {
+    font-size: 17px;
+}
+
+/* Footer */
+
+.footer {
+    height: 400px;
+    background-color: 	#202020;
+}
+
+.footer .cont-row {
+    color: #737373;
+    height: 400px;
+    width: 1250px;
+}
+
+.footer .cont-row .cont-col {
+    width: 20%;
+    height: 200px;
+}
+
+.footer .cont-row .cont-col p{
+    font-size: 13px;
+}
+
+.footer .cont-row .cont-col .link a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.footer .cont-row .cont-col .link a:hover {
+    color: white;
+}
+
+.footer .cont-row .cont-col .container .follow-icons a{
+    color: #737373;
+}
+
+.footer .cont-row .cont-col .container .follow-icons a:hover{
+    color: white;
+}
+
+.footer .cont-row .cont-col .container .follow-icons{
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+/* Keyframes */
+
+@keyframes slidein-left {
+    from {
+      transform: translateX(100%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes slidein-right {
+    from {
+      transform: translateX(-100%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+
+
+    /* My Information */
+    .about-me {
+        height: 650px;
+    }
+
+    .about-me-text {
+        font-size: 17px;
+    }
+
+    /* footer */
+
+    .footer {
+        height: 350px;
+    }
+    .footer .cont-row{
+        height: 300px !important;
+        width: 800px !important;
+        
+    }
+
+    .footer .cont-row .cont-col{
+        width: 33%;
+        padding: 3px !important;
+    }
+
+    .footer .cont-row .cont-col p{
+        font-size: 10px;
+    }
+
+    .footer .cont-row .cont-col .container .follow-icons{
+        padding: 0px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Header */
+    .header {
+        display: none !important;
+    }
+
+    /* My Information */
+    .about-me {
+        height: 750px;
+    }
+
+    .about-me-text {
+        font-size: 17px;
+    }
+
+    /* Nav-bar */
+
+    .nav-mobile{
+        display: flex;
+        justify-content: start !important;
+    }
+
+    .navbar-nav a{
+        color: black !important;
+        font-weight: 600;
+    }
+    
+    .navbar-nav a:hover {
+        color: #009933 !important;
+    }
+    
+    .navbar-nav a:active {
+        color: #009933 !important;
+    }
+
+    /* footer */
+
+    .footer {
+        height: 350px;
+    }
+    .footer .cont-row{
+        height: 300px !important;
+        width: 600px !important;
+        
+    }
+
+    .footer .cont-row .cont-col{
+        width: 33%;
+        padding: 3px !important;
+    }
+
+    .footer .cont-row .cont-col p{
+        font-size: 9px;
+    }
+
+    .footer .cont-row .cont-col .container .follow-icons{
+        padding: 0px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 414px) {
+    /* Header */
+    .header {
+        display: none !important;
+    }
+
+    /* My Information */
+    .about-me {
+        height: 810px;
+    }
+
+    .about-me-text {
+        font-size: 13px;
+        padding: 0px !important;
+    }
+
+    .about-me .name-box {
+        height: 100px;
+    }
+
+    /* Nav-bar */
+
+    .nav-mobile{
+        display: flex;
+        justify-content: start !important;
+    }
+
+    .navbar-nav a{
+        color: black !important;
+        font-weight: 600;
+    }
+    
+    .navbar-nav a:hover {
+        color: #009933 !important;
+    }
+    
+    .navbar-nav a:active {
+        color: #009933 !important;
+    }
+
+    /* footer */
+
+    .footer {
+        height: 450px;
+        width: 414px !important;
+        
+    }
+    .footer .cont-row{
+        height: 300px !important;
+        width: 380px !important;
+    }
+
+    .footer .cont-row .cont-col{
+        width: 100px;
+
+    }
+
+    .footer .cont-row .cont-col p{
+        font-size: 7px;
+    }
+
+    .footer .cont-row .cont-col .container .follow-icons{
+        width: 20px;
+        height: 200px;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-around !important;
+    }
+
+}

@@ -1,0 +1,8 @@
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+    .responsive-box {
+        width: 600px;
+    }
+
+}

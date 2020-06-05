@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Nawab | Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style-portfolio.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <section class="container-fluid header d-flex justify-content-between font-Hind">
+        <div class="contact d-flex align-items-center ml-5">
+            <a href="mailto: hamzanawab.bs@gmail.com" target="_blank"><i
+                    class="far fa-envelope px-2"></i>hamzanawab.bs@gmail.com</a>
+        </div>
+
+        <div class="social-icons d-flex align-items-center">
+            <a href="https://www.facebook.com/hamza.nawab.56" target="_blank"><i class="fab fa-facebook-f px-3"></i></a>
+            <a href="https://www.linkedin.com/in/hamza-nawab-33b1b9164/" target="_blank"><i
+                    class="fab fa-linkedin px-3"></i></a>
+            <a href="skype:Hamza Nawab?chat" target="_blank"><i class="fab fa-skype px-3"></i></a>
+            <a href="https://github.com/blazenn2" target="_blank"><i class="fab fa-github px-3"></i></a>
+        </div>
+
+    </section>
+
+
+    <!-- Nav-bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse d-flex justify-content-center nav-mobile" id="navbarNavAltMarkup">
+                <div class="navbar-nav font-Hind">
+                    <a class="nav-item nav-link px-4" href="Index.html">Home</a>
+                    <a class="nav-item nav-link px-4" href="Services.html">Services</a>
+                    <a class="nav-item nav-link px-4 active-class" href="Portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link px-4" href="Contact Me.html">Contact Me</a>
+                </div>
+            </div>
+    </nav>
+
+
+    <!-- Progress Section -->
+    <section class="container ">
+        <h2 class="font-Monterrat text-center mt-5">My Professional Skills</h2>
+        <br>
+        <p>Article & Blog Post</p>
+        <div class="progress">
+            <div class="progress-bar progress-bar-article" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">90%</div>
+        </div>
+        <br>
+        <p>SEO Blog Post</p>
+        <div class="progress">
+            <div class="progress-bar progress-bar-seoarticle" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100">95%</div>
+        </div>
+        <br>
+        <p>SEO: On-Page Optimization</p>
+        <div class="progress">
+            <div class="progress-bar progress-bar-onpage" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0"
+                aria-valuemax="100">80%</div>
+        </div>
+        <br>
+        <p>SEO: Off-Page Optimization</p>
+        <div class="progress">
+            <div class="progress-bar progress-bar-offpage" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100">70%</div>
+        </div>
+        <br>
+        <p>Website Speed Optimization</p>
+        <div class="progress">
+            <div class="progress-bar progress-bar-webspeed" role="progressbar" style="width: 85%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100">85%</div>
+        </div>
+        <br>
+    </section>
+
+    <!-- Portfolio Gallery -->
+
+    <h1 class="text-center font-Monterrat mt-5">Portfolio</h1>
+
+    <section class="container-fluid">
+        <!-- Images used to open the lightbox -->
+        <div class="row d-flex justify-content-around responsive-box d-flex flex-wrap">
+            <div class="column">
+                <img src="Images for portfolio/10 career tips for college students.png"
+                    onclick="openModal();currentSlide(1)" class="hover-shadow border" width="400px" height="200px">
+            </div>
+            <div class="column">
+                <img src="Images for portfolio/DIY vs Autobody.png" onclick="openModal();currentSlide(2)"
+                    class="hover-shadow border" width="400px" height="200px">
+            </div>
+            <div class="column">
+                <img src="Images for portfolio/CBD oil Indiana.png" onclick="openModal();currentSlide(3)"
+                    class="hover-shadow border" width="400px" height="200px">
+            </div>
+
+
+        </div>
+        <br>
+        <div class="row d-flex justify-content-around responsive-box">
+            <div class="column">
+                <img src="Images for portfolio/The why, what, how, and what if video script.png"
+                    onclick="openModal();currentSlide(4)" class="hover-shadow border" width="400px" height="200px">
+            </div>
+            <div class="column">
+                <img src="Images for portfolio/HEALTHY SNACKS FOR CHILDREN AND THE FAMILY.png"
+                    onclick="openModal();currentSlide(5)" class="hover-shadow border" width="400px" height="200px">
+            </div>
+            <div class="column">
+                <img src="Images for portfolio/Cash for structured settlement.png" onclick="openModal();currentSlide(6)"
+                    class="hover-shadow border" width="400px" height="200px">
+            </div>
+        </div>
+        <br>
+        <div class="row d-flex justify-content-around responsive-box">
+            <div class="column">
+                <img src="Images for portfolio/How to remove small dents.png" onclick="openModal();currentSlide(7)"
+                    class="hover-shadow border" width="400px" height="200px">
+            </div>
+            <div class="column">
+                <img src="Images for portfolio/THE TACTICS USING TECHNOLOGY AND SOCIAL MEDIA AS TOOLS TO IMPACT YOUR WORK.png"
+                    onclick="openModal();currentSlide(8)" class="hover-shadow border" width="400px" height="200px">
+            </div>
+            <div class="column">
+                <img src="Images for portfolio/TOP 5 TRAVELING BENEFITS THAT WILL MAKE YOU SAW WOW IN 2020.png"
+                    onclick="openModal();currentSlide(9)" class="hover-shadow border" width="400px" height="200px">
+            </div>
+        </div>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 9</div>
+                    <img src="Images for portfolio/10 career tips for college students.png" style="width:100%"
+                        width="1200px" height="700px">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 9</div>
+                    <img src="Images for portfolio/DIY vs Autobody.png" style="width:100%" width="1200px"
+                        height="700px">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 9</div>
+                    <img src="Images for portfolio/CBD oil Indiana.png" style="width:100%" width="1200px"
+                        height="700px">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 9</div>
+                    <img src="Images for portfolio/The why, what, how, and what if video script.png" style="width:100%"
+                        width="1200px" height="700px">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 9</div>
+                    <img src="Images for portfolio/HEALTHY SNACKS FOR CHILDREN AND THE FAMILY.png" style="width:100%"
+                        width="1200px" height="700px">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 9</div>
+                    <img src="Images for portfolio/Cash for structured settlement.png" style="width:100%" width="1200px"
+                        height="700px">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 9</div>
+                    <img src="Images for portfolio/How to remove small dents.png" style="width:100%" width="1200px"
+                        height="700px">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 9</div>
+                    <img src="Images for portfolio/THE TACTICS USING TECHNOLOGY AND SOCIAL MEDIA AS TOOLS TO IMPACT YOUR WORK.png"
+                        style="width:100%" width="1200px" height="700px">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 9</div>
+                    <img src="Images for portfolio/TOP 5 TRAVELING BENEFITS THAT WILL MAKE YOU SAW WOW IN 2020.png"
+                        style="width:100%" width="1200px" height="700px">
+                </div>
+
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h3 class="container font-sans my-5 pt-5">If you want to check more samples then please visit my 2nd portfolio website by <a
+            href="https://hamzanawabbs.wixsite.com/portfolio" target="_blank">clicking here.</a></h3>
+
+
+
+
+
+
+    <!-- Footer -->
+
+    <section class="container-fluid footer d-flex justify-content-around">
+        <div class="cont-row d-flex justify-content-around d-flex align-items-center">
+            <div class="cont-col mx-5">
+                <div>
+                    <h4 class="font-sans text-white pt-4">About Me</h4>
+                    <br>
+                    <p class="text-justify font-sans">Hello, my name is Hamza Nawab and I am from Pakistan. I did O and
+                        A Levels from Cambridge University and currently, I am enrolled in the Chemical Engineering
+                        Bachelor program from Dawood University of Engineering and Technology.
+                        <br>
+                        I am professional article writer and blogger with knowledge of SEO. In short, I can rank your
+                        website on top of all search engines. </p>
+                </div>
+            </div>
+            <div class="cont-col pl-5">
+                <div class="link">
+                    <h4 class="font-sans text-white pt-4">Quick Links</h4>
+                    <br>
+                    <a href="Index.html">
+                        <p class="font-sans ">Home</p>
+                    </a>
+                    <a href="Services.html">
+                        <p class="font-sans">Service</p>
+                    </a>
+                    <a href="Portfolio.html">
+                        <p class="font-sans">Portfolio</p>
+                    </a>
+                    <a href="Contact Me.html">
+                        <p class="font-sans">Contact Me</p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="cont-col">
+                <div class="container">
+                    <h4 class="font-sans text-white pt-4 ">Follow Me</h3>
+                        <br>
+                        <div class="follow-icons d-flex justify-content-between">
+                            <a href="https://www.facebook.com/hamza.nawab.56" target="_blank"><i
+                                    class="fab fa-facebook-f pr-3"></i></a>
+                            <a href="https://www.linkedin.com/in/hamza-nawab-33b1b9164/" target="_blank"><i
+                                    class="fab fa-linkedin px-3"></i></a>
+                            <a href="skype:Hamza Nawab?chat" target="_blank"><i class="fab fa-skype px-3"></i></a>
+                            <a href="https://github.com/blazenn2" target="_blank"><i class="fab fa-github px-3"></i></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>

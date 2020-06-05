@@ -1,0 +1,12 @@
+.navbar-nav a{
+    color: black !important;
+    font-weight: 600;
+}
+
+.navbar-nav a:hover {
+    color: #009933 !important;
+}
+
+.navbar-nav a:active {
+    color: #009933 !important;
+}
